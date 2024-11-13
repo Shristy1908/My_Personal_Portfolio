@@ -26,6 +26,7 @@ import EausetLogo from "../assets/EausetLogo.jfif";
 import webChatConnect from "../assets/webChatConnect.jfif";
 import albumn from "../assets/albumn.png";
 import ELearningLogo from "../assets/ELearningLogo.jfif";
+import Proshop from "../assets/proshop.png";
 
 import {
   AiFillGithub,
@@ -64,7 +65,7 @@ import { DiCss3 } from "react-icons/di";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1L_5S3q1akgX5OSDc7jkpcwS1fH2Sl7Tw/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const repoLink = "https://github.com/Shristy1908/ShristyProfile";
 
 export const callToAction =
   "https://www.linkedin.com/in/shristy-kumari-244203217/";
@@ -342,7 +343,7 @@ export const experiences = [
     positions: [
       {
         title: "Software Engineer",
-        duration: "Jul 2024 - Present",
+        duration: "July 2024 - Present",
         content: [
           {
             text: "Developed responsive user interfaces using React.js for efficient and intuitive web applications.",
@@ -368,7 +369,7 @@ export const experiences = [
       },
       {
         title: "Software Engineer Trainee",
-        duration: "November 2023 - May 2024",
+        duration: "November 2023 - June 2024",
         content: [
           {
             text: "Collaborated with senior developers to design and implement responsive web interfaces using HTML, CSS, JavaScript, and React, ensuring optimal performance across devices and browsers.",
@@ -389,7 +390,7 @@ export const experiences = [
     positions: [
       {
         title: "Web Development and Designing Intern",
-        duration: "Aug 2023 - Sep 2023",
+        duration: "August 2023 - September 2023",
         content: [
           {
             text: "•Demonstrated proficiency in web development and design by creating visually appealing and responsive landing pages using HTML, CSS, and JavaScript.",
@@ -410,7 +411,7 @@ export const experiences = [
     positions: [
       {
         title: "Summer Intern",
-        duration: "july 2023 - july 2023",
+        duration: "July 2023 - July 2023",
         content: [
           {
             text: "Gained valuable experience in coding and building functional applications using HTML, CSS, JavaScript, and ReactJs. Contributed effectively to team projects, fostering a collaborative and productive work environment link",
@@ -424,7 +425,7 @@ export const experiences = [
 export const certification = [
   {
     organisation: "Coding Ninja",
-    title: "Career Camp | React",
+    title: "React",
     icon: cnLogo,
     link: "https://www.infodartglobal.com/",
     duration: "January 2023",
@@ -723,6 +724,42 @@ export const projects = [
     ],
   },
   {
+    id: "project-7",
+    title: "Proshop - An E-Commerce Web App",
+    github: "https://github.com/Shristy1908/Proshop_WebApp",
+    link: "https://proshop-vwkm.onrender.com/",
+    image: Proshop,
+    content:
+      "Implemented a full-featured shopping cart, admin management for projects, users, and orders, along with product pagination and search functionalities.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-5",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-3",
+        icon: SiHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-4",
+        icon: DiCss3,
+        name: "CSS",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+    ],
+  },
+  {
     id: "project-3",
     title: "Real Time Chat Connect",
     github: "https://github.com/Shristy1908/ReactChatConnect",
@@ -838,8 +875,8 @@ export const projects = [
   {
     id: "project-6",
     title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
+    github: "https://github.com/Shristy1908/My_Personal_Portfolio/tree/master",
+    link: "https://bespoke-faloodeh-fc0ba8.netlify.app/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [
@@ -1058,5 +1095,5 @@ export const aboutMe = {
   tagLine:
     "Software Engineer @Infodart Technology Ltd | Frontend Developer | React Specialist",
   intro:
-    "Passionate Frontend Developer with expertise in React, focused on building responsive, user-centric web applications.",
+    "Dedicated Frontend Developer with expertise in React, focused on building responsive, user-centric web applications.",
 };

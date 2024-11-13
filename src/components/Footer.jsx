@@ -62,7 +62,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
-      <p>Made with ❤️ by Shristy Kumari & the Open Source Community</p>
+      <p>Made with ❤️ by Shristy Kumari</p>
     </div>
   </footer>
 );
