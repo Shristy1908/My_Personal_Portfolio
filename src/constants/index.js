@@ -64,7 +64,7 @@ import { MdIntegrationInstructions } from "react-icons/md";
 import { DiCss3 } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1L_5S3q1akgX5OSDc7jkpcwS1fH2Sl7Tw/view?usp=sharing";
+  "https://drive.google.com/file/d/13EdtBtEea5TzlPIxQQzVRvBZw4B9-y0p/view?usp=drive_link";
 export const repoLink = "https://github.com/Shristy1908/ShristyProfile";
 
 export const callToAction =
