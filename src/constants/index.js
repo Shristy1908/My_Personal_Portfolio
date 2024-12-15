@@ -689,7 +689,7 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "Eauset CRM Portal",
+    title: "Customer Issue Resolution System",
     github: "https://github.com/Shristy1908/Eauset_CRM/tree/master",
     link: "",
     image: EausetLogo,
