@@ -16,13 +16,14 @@ import {
   ethforall,
 } from "../assets";
 import infodartLogo from "../assets/infodartLogo.png";
-import oasisLogo from "../assets/OasisLogo.jfif";
+import deuexLogo from "../assets/deuexlogo.jpg";
 import EimpleLabLogo from "../assets/EimpleLabLogo.jfif";
 import vbuLogo from "../assets/vbuLogo.png";
 import cnLogo from "../assets/cnLogo.jfif";
 import udemy from "../assets/udemy.png";
 import bsLogo from "../assets/bsLogo.jfif";
 import EausetLogo from "../assets/EausetLogo.jfif";
+import devSwap from "../assets/devswap_logo.jpg"
 import webChatConnect from "../assets/webChatConnect.jfif";
 import albumn from "../assets/albumn.png";
 import ELearningLogo from "../assets/ELearningLogo.jfif";
@@ -64,7 +65,7 @@ import { MdIntegrationInstructions } from "react-icons/md";
 import { DiCss3 } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/13EdtBtEea5TzlPIxQQzVRvBZw4B9-y0p/view?usp=drive_link";
+  "https://drive.google.com/file/d/1goyLwQ7eVI_M3p7ONPzUBlu3Deb1Z2ex/view?usp=sharing";
 export const repoLink = "https://github.com/Shristy1908/ShristyProfile";
 
 export const callToAction =
@@ -336,6 +337,35 @@ export const skills = [
 ];
 
 export const experiences = [
+   {
+    organisation: "Deuex Solutions Pvt. Ltd.",
+    logo: deuexLogo,
+    link: "https://deuexsolutions.com/",
+    positions: [
+      {
+        title: "Frontend Developer",
+        duration: "Feb 2025 - May 2025",
+        content: [
+          {
+            text: "Developed and enhanced complex UI components for Javelin, an enterprise AI platform enabling secure, compliant access to multiple LLMs, using Next.js, TypeScript, and Tailwind CSS to deliver a responsive and intuitive user experience.",
+            link: "",
+          },
+          {
+            text: "Integrated REST APIs for credential management, audit logging, and model control features.",
+            link: "",
+          },
+          {
+            text: " Designed and implemented comprehensive end-to-end tests with Playwright and unit tests with Jest, resulting in a 30% reduction in production issues and improved test coverage.",
+            link: "",
+          },
+          {
+            text: "Optimized frontend performance by refactoring components and enhancing API interaction logic, achieving a 40% decrease in page load time and smoother application responsiveness.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
   {
     organisation: "Infodart Technologies Ltd, India",
     logo: infodartLogo,
@@ -343,7 +373,7 @@ export const experiences = [
     positions: [
       {
         title: "Software Engineer",
-        duration: "July 2024 - Present",
+        duration: "July 2024 - Jan 2025",
         content: [
           {
             text: "Developed responsive user interfaces using React.js for efficient and intuitive web applications.",
@@ -377,27 +407,6 @@ export const experiences = [
           },
           {
             text: "Assisted in debugging and testing applications, optimizing code for enhanced user experience while adhering to industry best practices and coding standards.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Oasis Infobyte",
-    logo: oasisLogo,
-    link: "https://oasisinfobyte.com/",
-    positions: [
-      {
-        title: "Web Development and Designing Intern",
-        duration: "August 2023 - September 2023",
-        content: [
-          {
-            text: "•Demonstrated proficiency in web development and design by creating visually appealing and responsive landing pages using HTML, CSS, and JavaScript.",
-            link: "",
-          },
-          {
-            text: "Successfully developed a personal portfolio website showcasing projects and skills, incorporating interactive elements and animations. Built a functional temperature converter application using JavaScript, allowing users to convert temperatures between different units.",
             link: "",
           },
         ],
@@ -651,6 +660,37 @@ export const openSourceContributions = [
 ];
 
 export const projects = [
+   {
+    id: "project-8",
+    title: "DevSwap",
+    github: "https://github.com/Shristy1908/dev-swap",
+    link: "https://dev-swap-silk.vercel.app/",
+    image: devSwap,
+    content:
+      "Built a responsive Developer Tools Discovery Platform with a modern, polished UI featuring a homepage carousel, categorized listings, search, filtering, and detailed tool views with screenshots and external links.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-5",
+        icon: SiTypescript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-3",
+        icon: SiHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+    ],
+  },
   {
     id: "project-1",
     title: "BharatSeats CRM Portal",
